@@ -1,0 +1,49 @@
+:root {
+  --link-color: #239911;
+  --nav-line-color: #0f0f0f;
+  --welcome-container-bg-color: rgba(255, 255, 255, 0.1);
+  --bg-color: #121212;
+  --info-bg-color: #212121;
+  --info-card-bg-color: #111111;
+  --info-font-color: rgb(204, 204, 204);
+
+  --scrollbar-track: var(var(--info-bg-color));
+  --scrollbar-thumb: #164e0e;
+  --scrollbar-thumb-hover: #2b8f1e;
+
+  --selection: rgba(255, 255, 255, 0.4);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
+}
+
+.vertical-scroll::-webkit-scrollbar-thumb {
+  background: none;
+  height: 0;
+  width: 0;
+}
+
+.vertical-scroll::-webkit-scrollbar-track {
+  background: none;
+  height: 0;
+  width: 0;
+}
+
+.vertical-scroll::-webkit-scrollbar-thumb:hover {
+  background: none;
+  height: 0;
+  width: 0;
+}
